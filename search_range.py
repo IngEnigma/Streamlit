@@ -26,6 +26,10 @@ df = load_data()
 
 st.title("Search in Database")
 
+st.write('Jesus Abraham Contreras Meneses')
+st.write('zs22019956')
+st.image("credencial.png")
+
 st.subheader("Search by Index")
 index_search = st.text_input("Enter an index:")
 if st.button("Search Name by Index"):

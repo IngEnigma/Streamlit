@@ -10,6 +10,10 @@ def load_data(nrows):
 
 st.title("Cache Example")
 
+st.write('Jesus Abraham Contreras Meneses')
+st.write('zs22019956')
+st.image("credencial.png")
+
 nrows = st.number_input("Number of rows to load", 1, LENGTH_DATA)
 
 df = load_data(nrows)

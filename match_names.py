@@ -13,6 +13,10 @@ def search_matches(name, df):
 
 st.title("Search Names in Dataset")
 
+st.write('Jesus Abraham Contreras Meneses')
+st.write('zs22019956')
+st.image("credencial.png")
+
 df = load_data()
 
 myname = st.text_input("Enter a name:")

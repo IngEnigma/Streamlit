@@ -14,6 +14,10 @@ df = load_data()
 
 st.title("Filter by Gender")
 
+st.write('Jesus Abraham Contreras Meneses')
+st.write('zs22019956')
+st.image("credencial.png")
+
 selected_sex = st.selectbox("Select Gender:", ["F", "M"])
 
 if st.button("Filter"):
